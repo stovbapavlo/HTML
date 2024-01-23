@@ -1,0 +1,34 @@
+@import 'https://fonts.googleapis.com/css?family=Caveat&display=swap';
+
+.bg-video{
+    height: 70vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bg-video video{
+    height: 70vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.video-text {
+    color: #757373;
+    z-index: 2;
+}
+.video-text h1 {
+    font-family: 'Caveat', sans-serif;
+    font-size: 8em;
+    font-weight: bold;
+    color: #232325;
+    text-shadow: 5px 5px 5px #000000;
+
+}
